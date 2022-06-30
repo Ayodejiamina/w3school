@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+}
+.nav1{
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    float: inline-end;
+    margin-top: 1%;
+}
+.nav1 li{
+    display:inline-block;
+    float: none;
+    
+}
+.nav1 li a{
+    text-decoration: none;
+    display: inline-block;
+    color: green;
+    padding: 1px 80px 1px ;
+}
+.btn{
+    background-color: aqua;
+    color: lightslategray;
+    height: 20px;
+    border-radius:20%;
+    text-align: center;
+}
+.firstnav{
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.nav2{
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    float: inline-block;
+    padding-top: 0;
+}
+
+.nav2 li{
+    display: inline-block;
+    float:  none;
+}
+.nav2 li a{
+    text-decoration: none;
+    display: inline-block;
+    color:white;
+    padding: 10px;
+
+}
+.sidenav h1{
+    text-align: left;
+}
+
+.secondnav{
+    background-color: black;
+    position: sticky;
+    top: 0;
+    text-align: left;
+
+
+}
+.secondnav a:hover{
+    background-color: blue;
+    border-radius: 10%;
+}
+.sidelink{
+    list-style-type: none;
+    overflow: hidden;
+}
+.sidelink li a{
+    display: block;
+    color:lemonchiffon;
+    text-decoration: none;
+    padding:20px;
+}
+.thirdnav{
+background-color:dodgerblue;
+width: 20%;
+height: 100%;
+overflow: hidden;
+float:left;
+margin-top: 1%;
+}
+.thirdnav a:hover{
+    background-color: grey;
+    border-radius: 10%;
+}
+.firstnav a:hover{
+    background-color: aqua;
+    border-radius: 20%;
+}
+.page{
+    margin-left: 25%;
+    position: relative;
+    height: 2000px;
+    width:80%;
+}
+.sidenav{
+    overflow: scroll;
+}
+
+@media screen and (max-width:768px) {
+    .page{
+        background-attachment: fixed;
+    }
+}
+
+@media  screen and(max-width:768px) {
+    .firstnav{
+        background-attachment: fixed;
+    }
+}
